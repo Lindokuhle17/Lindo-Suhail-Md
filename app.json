@@ -1,7 +1,7 @@
 {
   "name": "Lindo-md",
   "description": "I am Lindo Bot-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/0087a0f2c1bc2446e4ce5.png",
+  "logo": "https://imgur.com/pCmjg75.mp4",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/suhail/",
@@ -29,10 +29,10 @@
       "required" :false,    
       "value": "sᴜʜᴀɪʟ-ᴍᴅ"
     }, 
-    "IMAGE": {
-      "description": "Image for bot",
+    "Video": {
+      "description": "video for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/0087a0f2c1bc2446e4ce5.png"
+      "value": "https://imgur.com/pCmjg75.mp4"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
