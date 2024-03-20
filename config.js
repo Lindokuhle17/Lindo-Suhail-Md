@@ -18,7 +18,8 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/johannesburg
 global.github=process.env.GITHUB|| "https://github.com/Lindokuhle17/Lindo-Suhail-Md";
 global.gurl  =process.env.GURL  || "https://https://wa.me/message/MAD66BH7UVM6G1";
 global.website=process.env.GURL || "https://https://wa.me/message/MAD66BH7UVM6G1" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://imgur.com/pCmjg75" ; // SET LOGO FOR IMAGE 
+global.THUMB_VIDEO = process.env.THUMB_VIDEO || process.env.VIDEO || "https://imgur.com/pCmjg75.mp4"; // SET VIDEO URL
+
 
 
 
