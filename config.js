@@ -8,11 +8,12 @@ global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="lindokuhle.ndlagamandla@gmail.com"
-global.location="Pongola, KZN."
+global.location="Durban, South Africa."
+
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
-global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
-global.DATABASE_URI = process.env.DATABASE_URL || ""
+global.blockJids= process.env.BLOCK_JID || "null"
+global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/johannesburg";
 global.github=process.env.GITHUB|| "https://github.com/Lindokuhle17/Lindo-Suhail-Md";
@@ -22,7 +23,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "0657006860" // Developer Contact
+global.devs = "27657006860" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "27657006860";
 
@@ -37,9 +38,11 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
-global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "text",
-global.waPresence= process.env.WAPRESENCE ||  'recording' ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
+
+global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
+global.userImages= process.env.USER_IMAGES || "text" // set Image/video urls here
+global.waPresence= process.env.WAPRESENCE ||  "recording" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
@@ -131,7 +134,7 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //disablepm: process.env.DISABLE_PM || "false",
   //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   //readcmds:process.env.READ_COMMANDS|| "false", 
-  //alwaysonline:process.env.WAPRESENCE|| 'recording', // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
+  //alwaysonline:process.env.WAPRESENCE|| 'composing', // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
   //read_status: process.env.AUTO_READ_STATUS || "true",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
  
